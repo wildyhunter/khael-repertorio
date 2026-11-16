@@ -2,4 +2,3 @@
 # Formato: musica|artista
 
 Thinking Out Loud|Ed Sheeran
-Alwayon my mind|Elviz
