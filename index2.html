@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-PT">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#0D0C0A" />
+
+        <meta
+            name="description"
+            content="Repertório musical de Khael Singer. Escolhe uma música e pede-a na LIVE."
+        />
+
+        <title>Repertório | Khael Singer</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="glow glow-a"></div>
+        <div class="glow glow-b"></div>
+
+        <main class="wrap">
+            <header class="hero">
+                <div class="monogram">KS</div>
+
+                <p class="eyebrow">MÚSICA AO VIVO · PEDIDOS DE MÚSICAS</p>
+
+                <h1>KHAEL <span>SINGER</span></h1>
+
+                <div class="pill">
+                    <i></i>
+                    REPERTÓRIO DISPONÍVEL
+                </div>
+            </header>
+
+            <section class="catalog">
+                <div class="heading">
+                    <div>
+                        <h2>Repertório</h2>
+                    </div>
+
+                    <span id="song-count">A carregar...</span>
+                </div>
+
+                <label class="search">
+                    <span>⌕</span>
+
+                    <input
+                        id="search-input"
+                        type="search"
+                        placeholder="Pesquisar músicas ou artistas..."
+                        autocomplete="off"
+                    />
+
+                    <kbd>Ctrl K</kbd>
+                </label>
+
+                <nav
+                    id="alphabet"
+                    class="alphabet"
+                    aria-label="Filtrar por letra"
+                ></nav>
+
+                <div id="song-list" aria-live="polite">
+                    <p class="loading">A carregar o repertório...</p>
+                </div>
+
+                <div id="empty-state" class="empty" hidden>
+                    <b>♫</b>
+
+                    <h3>Não encontrámos essa música.</h3>
+
+                    <p>Experimenta pesquisar outro título ou artista.</p>
+                </div>
+            </section>
+
+            <section class="request">
+                <div class="note">♫</div>
+
+                <div>
+                    <p class="eyebrow">QUERES OUVIR UMA MÚSICA?</p>
+
+                    <h2>Pede-a na LIVE!</h2>
+
+                    <p>
+                        Entra na transmissão do Khael Singer e escreve o nome da
+                        música no chat. Se estiver no repertório, poderás
+                        pedi-la durante a LIVE.
+                    </p>
+                </div>
+            </section>
+
+            <footer>
+                <strong>KHAEL SINGER</strong>
+
+                <span>Feito para quem gosta de música.</span>
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+# KHAEL SINGER — BASE DE DADOS DO REPERTÓRIO
+# Formato: musica|artista
+
+Thinking Out Loud|Ed Sheeran

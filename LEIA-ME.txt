@@ -1,0 +1,26 @@
+KHAEL SINGER — REPERTÓRIO ONLINE
+
+OS QUATRO FICHEIROS PRINCIPAIS
+- index.html: página.
+- style.css: design e versão mobile.
+- script.js: pesquisa, ordenação alfabética e carregamento da base de dados.
+- musicas.txt: base de dados que podes editar no Bloco de Notas.
+
+ADICIONAR MÚSICAS
+Abre musicas.txt e adiciona uma música por linha:
+Nome da música|Nome do artista
+Exemplo:
+Thinking Out Loud|Ed Sheeran
+
+Guarda em UTF-8. Mantém o símbolo | entre o título e o artista. Linhas iniciadas por # são comentários e não aparecem na página.
+A lista começa sem repertório real para não inventar músicas tuas.
+
+PUBLICAR NO GITHUB PAGES
+1. Cria um repositório, por exemplo khael-repertorio.
+2. Envia index.html, style.css, script.js e musicas.txt para a raiz.
+3. Vai a Settings > Pages.
+4. Em Build and deployment, escolhe Deploy from a branch.
+5. Seleciona main e /(root), depois guarda.
+6. Usa o endereço publicado pelo GitHub Pages no teu Linktree.
+
+Nota: o carregamento de musicas.txt requer que a página esteja num servidor (GitHub Pages). Abrir index.html diretamente com duplo clique pode impedir o navegador de carregar a base de dados.
