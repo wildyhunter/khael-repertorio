@@ -1,26 +1,10 @@
 
 // ==========================================
-// IDENTIFICAR A PÁGINA E ESCOLHER A BASE DE DADOS
+// KHAEL SINGER - ENGLISH VERSION
+// DATABASE: musicas.txt
 // ==========================================
 
-const pageName = window.location.pathname
-    .split('/')
-    .filter(Boolean)
-    .pop()
-    ?.toLowerCase() || 'index.html';
-
-const isPortuguese = pageName === 'index2.html';
-
-const DATABASE_FILE = isPortuguese
-    ? './musicas-pt.txt'
-    : './musicas.txt';
-
-console.log('Página aberta:', pageName);
-console.log('Base de dados selecionada:', DATABASE_FILE);
-
-// ==========================================
-// ELEMENTOS DA PÁGINA
-// ==========================================
+const DATABASE_FILE = 'musicas.txt';
 
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
@@ -31,45 +15,10 @@ const alphabetNav = document.getElementById('alphabet');
 const emptyState = document.getElementById('empty-state');
 
 let songs = [];
-let activeLetter = isPortuguese ? 'TODAS' : 'ALL';
+let activeLetter = 'ALL';
 
 // ==========================================
-// TEXTOS CONFORME O IDIOMA
-// ==========================================
-
-const translations = {
-    pt: {
-        all: 'TODAS',
-        song: 'música',
-        songs: 'músicas',
-        artist: 'Artista não indicado',
-        emptyTitle: 'Não encontrámos essa música.',
-        emptyText: 'Experimenta pesquisar outro título ou artista.',
-        readyTitle: 'O repertório está pronto para receber músicas',
-        readyText: 'Adiciona músicas ao ficheiro musicas-pt.txt.',
-        loading: 'A carregar o repertório...',
-        error: 'Não foi possível carregar musicas-pt.txt. Confirma se o ficheiro está publicado junto com esta página.'
-    },
-
-    en: {
-        all: 'ALL',
-        song: 'song',
-        songs: 'songs',
-        artist: 'Artist not specified',
-        emptyTitle: 'We couldn’t find that song.',
-        emptyText: 'Try searching for a different title or artist.',
-        readyTitle: 'The playlist is ready for songs',
-        readyText: 'Add songs to the musicas.txt file.',
-        loading: 'Loading the playlist...',
-        error: 'Could not load musicas.txt. Check that the file is published alongside this page.'
-    }
-};
-
-const language = isPortuguese ? 'pt' : 'en';
-const t = translations[language];
-
-// ==========================================
-// NORMALIZAR TEXTO E REMOVER ACENTOS
+// NORMALIZE TEXT
 // ==========================================
 
 function normalize(value) {
@@ -80,7 +29,7 @@ function normalize(value) {
 }
 
 // ==========================================
-// LER A BASE DE DADOS
+// READ DATABASE
 // ==========================================
 
 function parseDatabase(text) {
@@ -102,20 +51,20 @@ function parseDatabase(text) {
         })
         .filter(song => song.title)
         .sort((a, b) =>
-            a.title.localeCompare(b.title, language, {
+            a.title.localeCompare(b.title, 'en', {
                 sensitivity: 'base'
             })
         );
 }
 
 // ==========================================
-// FILTRO ALFABÉTICO
+// ALPHABET FILTER
 // ==========================================
 
 function renderAlphabet() {
     alphabetNav.innerHTML = '';
 
-    [t.all, ...alphabet].forEach(letter => {
+    ['ALL', ...alphabet].forEach(letter => {
         const button = document.createElement('button');
 
         button.textContent = letter;
@@ -131,7 +80,7 @@ function renderAlphabet() {
 }
 
 // ==========================================
-// MOSTRAR MÚSICAS
+// DISPLAY SONGS
 // ==========================================
 
 function render() {
@@ -143,7 +92,7 @@ function render() {
 
         return (
             (!query || text.includes(query)) &&
-            (activeLetter === t.all || first === activeLetter)
+            (activeLetter === 'ALL' || first === activeLetter)
         );
     });
 
@@ -153,14 +102,12 @@ function render() {
     songList.hidden = filtered.length === 0;
 
     songCount.textContent =
-        `${filtered.length} ${filtered.length === 1 ? t.song : t.songs}`;
+        `${filtered.length} ${filtered.length === 1 ? 'song' : 'songs'}`;
 
     const groups = new Map();
 
     filtered.forEach(song => {
-        const letter = song.title
-            .charAt(0)
-            .toLocaleUpperCase(isPortuguese ? 'pt-PT' : 'en');
+        const letter = song.title.charAt(0).toLocaleUpperCase('en');
 
         if (!groups.has(letter)) {
             groups.set(letter, []);
@@ -170,7 +117,7 @@ function render() {
     });
 
     [...groups.keys()]
-        .sort((a, b) => a.localeCompare(b, language))
+        .sort((a, b) => a.localeCompare(b, 'en'))
         .forEach(letter => {
             const section = document.createElement('section');
             section.className = 'group';
@@ -197,7 +144,7 @@ function render() {
 
                 const artist = document.createElement('div');
                 artist.className = 'artist';
-                artist.textContent = song.artist || t.artist;
+                artist.textContent = song.artist || 'Artist not specified';
 
                 details.append(title, artist);
                 row.append(symbol, details);
@@ -212,7 +159,7 @@ function render() {
 }
 
 // ==========================================
-// CARREGAR A BASE DE DADOS CORRETA
+// LOAD ENGLISH DATABASE
 // ==========================================
 
 async function loadSongs() {
@@ -225,12 +172,13 @@ async function loadSongs() {
             throw new Error(`HTTP ${response.status}`);
         }
 
-        const databaseText = await response.text();
+        songs = parseDatabase(await response.text());
 
-        songs = parseDatabase(databaseText);
+        emptyState.querySelector('h3').textContent =
+            'We couldn’t find that song.';
 
-        emptyState.querySelector('h3').textContent = t.emptyTitle;
-        emptyState.querySelector('p').textContent = t.emptyText;
+        emptyState.querySelector('p').textContent =
+            'Try searching for a different title or artist.';
 
         render();
 
@@ -238,13 +186,17 @@ async function loadSongs() {
             songList.hidden = true;
             emptyState.hidden = false;
 
-            emptyState.querySelector('h3').textContent = t.readyTitle;
-            emptyState.querySelector('p').textContent = t.readyText;
+            emptyState.querySelector('h3').textContent =
+                'The playlist is ready for songs';
 
-            songCount.textContent = `0 ${t.songs}`;
+            emptyState.querySelector('p').textContent =
+                'Add songs to the musicas.txt file.';
+
+            songCount.textContent = '0 songs';
         }
 
-        console.log(`${songs.length} músicas carregadas de ${DATABASE_FILE}`);
+        console.log('English database loaded:', DATABASE_FILE);
+        console.log('Total songs:', songs.length);
 
     } catch (error) {
         songList.hidden = false;
@@ -254,24 +206,25 @@ async function loadSongs() {
 
         const message = document.createElement('p');
         message.className = 'loading';
-        message.textContent = t.error;
+        message.textContent =
+            'Could not load musicas.txt. Check that the file is published alongside this page.';
 
         songList.appendChild(message);
 
-        songCount.textContent = 'Error';
+        songCount.textContent = 'Loading error';
 
-        console.error('Erro ao carregar a base de dados:', error);
+        console.error('Database loading error:', error);
     }
 }
 
 // ==========================================
-// PESQUISA EM TEMPO REAL
+// LIVE SEARCH
 // ==========================================
 
 searchInput.addEventListener('input', render);
 
 // ==========================================
-// ATALHO CTRL + K PARA PESQUISAR
+// CTRL + K SEARCH SHORTCUT
 // ==========================================
 
 document.addEventListener('keydown', event => {
@@ -285,7 +238,7 @@ document.addEventListener('keydown', event => {
 });
 
 // ==========================================
-// INICIAR A APLICAÇÃO
+// START
 // ==========================================
 
 loadSongs();
