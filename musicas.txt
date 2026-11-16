@@ -3,53 +3,53 @@
 
 A Million Dreams|The Greatest Showman
 Always on My Mind|Elvis Presley
-Always on My Mind|Michael Bublé, Elvis Presley & Willie Nelson
+Always on My Mind|Michael Bublé, Elvis Presley, Willie Nelson
 Amarillo by Morning|George Strait
-Another Love (Original)|Tom Odell
-Another Love (Acoustic)|Tom Odell
-Back to Black (Acoustic)|Amy Winehouse
-Bad Romance (Jazz)|Lady Gaga
+Another Love|Tom Odell
+Another Love • Acústico|Tom Odell
+Back to Black • Acústico|Amy Winehouse
+Bad Romance • Jazz|Lady Gaga
 Beautiful Things|Benson Boone
 Believe|Cher
 Bésame Mucho|Andrea Bocelli
 Bohemian Rhapsody|Angelina Jordan
-Budapest (Acoustic)|George Ezra
-Budapest (Original)|George Ezra
+Budapest • Acústico|George Ezra
+Budapest|George Ezra
 Can You Feel the Love Tonight|Elton John
-Can't Help Falling in Love (Acoustic)|Elvis Presley
-Can't Help Falling in Love (Original)|Elvis Presley
-Chasing Cars (Piano)|Snow Patrol
-Crazy (Original)|Gnarls Barkley
-Crazy (Acoustic)|Gnarls Barkley
-Creep (Acoustic)|Radiohead
-Creep (Piano)|Radiohead
-Creep (Original)|Radiohead
-Dancing on My Own (Piano)|Robyn
-Dust in the Wind (Acoustic)|Kansas
-Endless Love (Smooth Jazz)|Lionel Richie & Diana Ross
+Can't Help Falling in Love • Acústico|Elvis Presley
+Can't Help Falling in Love|Elvis Presley
+Chasing Cars • Piano|Snow Patrol
+Crazy|Gnarls Barkley
+Crazy • Acústico|Gnarls Barkley
+Creep • Acústico|Radiohead
+Creep • Piano|Radiohead
+Creep|Radiohead
+Dancing on My Own • Piano|Robyn
+Dust in the Wind • Acústico|Kansas
+Endless Love • Smooth Jazz|Lionel Richie & Diana Ross
 Feeling Good|Michael Bublé
 Fly Me to the Moon|Angelina Jordan
-Fly Me to the Moon (Acoustic)|Frank Sinatra
-From Now On (Piano)|The Greatest Showman
-Hallelujah (Acoustic)|Jeff Buckley
+Fly Me to the Moon • Acústico|Frank Sinatra
+From Now On • Piano|The Greatest Showman
+Hallelujah • Acústico|Jeff Buckley
 Have You Ever Seen the Rain|Creedence Clearwater Revival
-I Just Called to Say I Love You (Jazz)|Stevie Wonder
+I Just Called to Say I Love You • Jazz|Stevie Wonder
 I Think They Call This Love|Elliot James
-I Wanna Dance with Somebody (Original)|Whitney Houston
-I Wanna Dance with Somebody (Piano)|Whitney Houston
-I Want to Break Free (Acoustic)|Queen
-I Will Always Love You (Masculine)|Whitney Houston
-I Will Survive (Acoustic)|Gloria Gaynor
-If I Ain't Got You (Piano)|Alicia Keys
+I Wanna Dance with Somebody|Whitney Houston
+I Wanna Dance with Somebody • Piano|Whitney Houston
+I Want to Break Free • Acústico|Queen
+I Will Always Love You • Masculino|Whitney Houston
+I Will Survive • Acústico|Gloria Gaynor
+If I Ain't Got You • Piano|Alicia Keys
 I'll Try|Alan Jackson
-Imagine (Acoustic)|John Lennon
-Jolene (Original)|Dolly Parton
-Jolene (Acoustic)|Dolly Parton
-Jolene (Piano)|Dolly Parton
+Imagine • Acústico|John Lennon
+Jolene|Dolly Parton
+Jolene • Acústico|Dolly Parton
+Jolene • Piano|Dolly Parton
 Let It Be|The Beatles
 Listen to Your Heart|Roxette
 Lose Control|Teddy Swims
-Love in the Dark (Piano - Masculine)|Adele
+Love in the Dark • Piano • Masculino|Adele
 Love of My Life|Queen
 Lovely|Billie Eilish
 Make You Feel My Love|Adele
@@ -57,36 +57,35 @@ My Way|Frank Sinatra
 Never Enough|Loren Allred
 Oceans (Where Feet May Fail)|Hillsong UNITED
 Only Love Can Hurt Like This|Paloma Faith
-Over the Rainbow (Piano)|Harold Arlen
-Purple Rain (Acoustic)|Prince
-Que o Amor Te Salve Nesta Noite Escura|Pedro Abrunhosa
+Over the Rainbow • Piano|Harold Arlen
+Purple Rain • Acústico|Prince
 Read All About It|Emeli Sandé
-Right Here Waiting (Acoustic)|Richard Marx
+Right Here Waiting • Acústico|Richard Marx
 Rise Up|Andra Day
 Say Something|A Great Big World feat. Christina Aguilera
 Shallow|Lady Gaga
-Skyfall (Acoustic)|Adele
+Skyfall • Acústico|Adele
 Speechless|Naomi Scott
-Stand by Me (Original)|Ben E. King
-Stand by Me (Acoustic)|Ben E. King
+Stand by Me|Ben E. King
+Stand by Me • Acústico|Ben E. King
 Still Loving You|Scorpions
 Stuck on You|Lionel Richie
-Take Me Home, Country Roads (Standard)|John Denver
-Take Me Home, Country Roads (Acoustic)|John Denver
-Take Me Home, Country Roads (Acoustic Slow)|John Denver
+Take Me Home, Country Roads|John Denver
+Take Me Home, Country Roads • Acústico|John Denver
+Take Me Home, Country Roads • Acústico Slow|John Denver
 Talking to the Moon|Bruno Mars
-The One That Got Away (Acoustic)|Katy Perry
-The One That Got Away (Piano)|Katy Perry
+The One That Got Away • Acústico|Katy Perry
+The One That Got Away • Piano|Katy Perry
 The Scientist|Coldplay
 This Is Me|The Greatest Showman
-Try (Acoustic)|Pink
-Try (Original)|Pink
+Try • Acústico|P!nk
+Try|P!nk
 Unchained Melody|The Righteous Brothers
-Wake Me Up (Acoustic)|Avicii
+Wake Me Up • Acústico|Avicii
 What a Wonderful World|Louis Armstrong
-When We Were Young (Piano)|Adele
-Wicked Game (Acoustic)|Chris Isaak
-Wicked Game (Original)|Chris Isaak
-Wicked Game (Acoustic)|Donna Missal
+When We Were Young • Piano|Adele
+Wicked Game • Acústico|Chris Isaak
+Wicked Game|Chris Isaak
+Wicked Game • Acústico|Donna Missal
 You Raise Me Up|Josh Groban
 Your Man|Josh Turner
