@@ -3,12 +3,11 @@
 
 A Million Dreams|The Greatest Showman
 Always on My Mind|Elvis Presley
-Always on My Mind|Michael Bublé, Elvis Presley, Willie Nelson
+Always on My Mind|Michael Bublé Elvis Presley Willie Nelson
 Amarillo by Morning|George Strait
 Another Love|Tom Odell
 Another Love • Acústico|Tom Odell
 Back to Black • Acústico|Amy Winehouse
-Bad Romance • Jazz|Lady Gaga
 Beautiful Things|Benson Boone
 Believe|Cher
 Bésame Mucho|Andrea Bocelli
@@ -24,7 +23,7 @@ Crazy • Acústico|Gnarls Barkley
 Creep • Acústico|Radiohead
 Creep • Piano|Radiohead
 Creep|Radiohead
-Dancing on My Own • Piano|Robyn
+Dancing On My Own • Piano|Robyn
 Dust in the Wind • Acústico|Kansas
 Endless Love • Smooth Jazz|Lionel Richie & Diana Ross
 Feeling Good|Michael Bublé
@@ -35,12 +34,9 @@ Hallelujah • Acústico|Jeff Buckley
 Have You Ever Seen the Rain|Creedence Clearwater Revival
 I Just Called to Say I Love You • Jazz|Stevie Wonder
 I Think They Call This Love|Elliot James
-I Wanna Dance with Somebody|Whitney Houston
 I Wanna Dance with Somebody • Piano|Whitney Houston
 I Want to Break Free • Acústico|Queen
-I Will Always Love You • Masculino|Whitney Houston
-I Will Survive • Acústico|Gloria Gaynor
-If I Ain't Got You • Piano|Alicia Keys
+I Will Always Love You|Whitney Houston
 I'll Try|Alan Jackson
 Imagine • Acústico|John Lennon
 Jolene|Dolly Parton
@@ -49,18 +45,14 @@ Jolene • Piano|Dolly Parton
 Let It Be|The Beatles
 Listen to Your Heart|Roxette
 Lose Control|Teddy Swims
-Love in the Dark • Piano • Masculino|Adele
+Love in the Dark • Piano|Adele
 Love of My Life|Queen
 Lovely|Billie Eilish
 Make You Feel My Love|Adele
 My Way|Frank Sinatra
 Never Enough|Loren Allred
-Oceans (Where Feet May Fail)|Hillsong UNITED
-Only Love Can Hurt Like This|Paloma Faith
 Over the Rainbow • Piano|Harold Arlen
 Purple Rain • Acústico|Prince
-Read All About It|Emeli Sandé
-Right Here Waiting • Acústico|Richard Marx
 Rise Up|Andra Day
 Say Something|A Great Big World feat. Christina Aguilera
 Shallow|Lady Gaga
@@ -73,7 +65,6 @@ Stuck on You|Lionel Richie
 Take Me Home, Country Roads|John Denver
 Take Me Home, Country Roads • Acústico|John Denver
 Take Me Home, Country Roads • Acústico Slow|John Denver
-Talking to the Moon|Bruno Mars
 The One That Got Away • Acústico|Katy Perry
 The One That Got Away • Piano|Katy Perry
 The Scientist|Coldplay
@@ -87,5 +78,7 @@ When We Were Young • Piano|Adele
 Wicked Game • Acústico|Chris Isaak
 Wicked Game|Chris Isaak
 Wicked Game • Acústico|Donna Missal
-You Raise Me Up|Josh Groban
+Yellow • Acústico|Coldplay
 Your Man|Josh Turner
+Let It Be • Acústico|The Beatles
+Dancing On My Own • Piano|Calum Scott
