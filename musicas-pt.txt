@@ -1,4 +1,67 @@
 # KHAEL SINGER — BASE DE DADOS DO REPERTÓRIO
 # Formato: musica|artista
 
-Chuva de Prata Gal|Costa
+A Viagem|Roupa Nova
+Admirável Gado Novo|Zé Ramalho
+Ainda Bem|Marisa Monte
+Amor e Fé|Hungria
+Amor Perfeito|Roberto Carlos
+Anjo|Roupa Nova
+Anunciação • Acústico|Mariana Nolasco
+Anunciação|Alceu Valença
+Aquarela|Toquinho
+Borboletas|Victor & Leo
+Borbulhas de Amor|Fagner
+Borbulhas de Amor • Acústico|Fagner
+Cê Que Sabe|Cristiano Araújo
+Chão de Giz|Zé Ramalho
+Chuva|Mariza
+Chuva de Prata|Gal Costa
+Codinome Beija-Flor|Cazuza
+Como Vai Você|Roberto Carlos
+Convite de Casamento|Gian & Giovani
+Depois do Universo|Jullie Bee
+Deus e Eu no Sertão|Victor & Leo
+Ela é Demais|Rick & Renner
+Entre a Serpente e a Estrela|Zé Ramalho
+Era Uma Vez|Kell Smith
+Espumas ao Vento|Mariana Aydar
+Esse Cara Sou Eu|Roberto Carlos
+Eu Juro|Mobi Colombo
+Exagerado|Cazuza
+Força Estranha|Gal Costa
+Garçom|Reginaldo Rossi
+Garotos|Lenine
+Hoje à Noite Não Tem Luar|Legião Urbana
+La Belle de Jour|Alceu Valença
+Me Espera|Tiago Iorc
+Meu Céu Azul|Gargantas de Ouro
+Meu Grito de Amor|Zé Felipe
+Mistérios da Meia-Noite|Zé Ramalho
+Não Olhe Assim|Leandro & Leonardo
+Naquela Mesa|Nelson Gonçalves
+No Dia em Que Eu Saí de Casa|Zezé Di Camargo & Luciano
+No Fundo do Seu Coração|Sandy & Junior
+Nossa Canção|Vanessa da Mata
+O Sapo Não Lava o Pé • Jazz|João de Barro
+Página de Amigos|Chitãozinho & Xororó
+Página de Amigos • Acústico|Chitãozinho & Xororó
+Para os Braços da Minha Mãe|Pedro Abrunhosa & Camané
+Porta-Retrato|Edson & Hudson
+Que Faço Eu da Vida Sem Você|Caetano Veloso
+Que o Amor Te Salve Nesta Noite Escura|Pedro Abrunhosa
+Romaria|Renato Teixeira
+Se Ar|DBlack
+Seio de Minas|Paula Fernandes
+Só um Grande Amor|Guilherme & Santiago
+Sozinho|Caetano Veloso
+Te Amo Cada Vez Mais|Daniel & Gloria Groove
+Tocando em Frente|Almir Sater
+Tubarões|Diego & Victor Hugo
+Uma Vez Mais|Ivo Pessoa
+Você Vai Ver|Zezé Di Camargo & Luciano
+Cowboy Fora da Lei|Raul Seixas
+Maluco Beleza|Raul Seixas
+Todo Homem|Zeca Veloso
+Não Olhe Assim • Acústico|Leandro & Leonardo
+Oceano|Djavan
